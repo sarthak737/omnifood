@@ -37,6 +37,11 @@ DEFAULT: 1
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
@@ -44,8 +49,13 @@ body {
   color: #555;
 }
 
-.test {
-  width: 1000px;
-  background-color: red;
-  padding: 100px;
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
 }
