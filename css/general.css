@@ -27,7 +27,7 @@ Paragraph: 1.6
 -TINTS: #fdf2e9 #fae5d3
 -SHADES: #cf711f #eb984e
 -ACCENTS:
--GREYS: #555 #333 #6f6f6f
+-GREYS: #555 #333 #6f6f6f #888 #767676
 
 --- 05 SHADOWS
 
@@ -90,6 +90,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .heading-primary,
